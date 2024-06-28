@@ -27,7 +27,7 @@ UNZIP := unzip
 crosstool-ng := $(LOCAL_DIR)/bin/ct-ng
 $(crosstool-ng):
 	git clone https://github.com/crosstool-ng/crosstool-ng.git
-	cd crosstool-ng && git checkout e63c40854c977f488bee159a8f8ebf5fc06c8666
+	cd crosstool-ng && git checkout 839bfbec6d1a8758e6507c009add0832784cd715
 	cd crosstool-ng && ./bootstrap
 	cd crosstool-ng && ./configure --prefix="$(LOCAL_DIR)"
 	cd crosstool-ng && make -j $(JOBS)
