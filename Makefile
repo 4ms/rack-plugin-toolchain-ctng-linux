@@ -88,7 +88,8 @@ dep-ubuntu:
 		coreutils \
 		zstd \
 		markdown \
-		libarchive-tools
+		libarchive-tools \
+		vim
 
 
 .NOTPARALLEL:
