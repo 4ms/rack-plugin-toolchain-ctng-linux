@@ -21,7 +21,7 @@ UNTAR := tar -x -f
 UNZIP := unzip
 
 
-# Toolchain build
+# Toolchain build (gcc 13.2)
 
 
 crosstool-ng := $(LOCAL_DIR)/bin/ct-ng
